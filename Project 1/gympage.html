@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiper Fitness</title>
+
+    <script src="https://kit.fontawesome.com/047d051dea.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/JPG" href="img/favicon.JPG">
+
+    <style>
+        /* CSS Reset */
+        body {
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/bg.jpg');
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top: 20px;
+
+
+        }
+
+        .left img {
+            width: 136px;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+        }
+
+
+        .mid {
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+            /* border: 2px solid rgb(167, 230, 167); */
+
+        }
+
+
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid rgb(158, 158, 13); */
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 99px 55px;
+            padding: 54px;
+            width: 45%;
+            border-radius: 28px;
+        }
+
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 34px 25px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhaina 2', cursive;
+            margin: 11px 7px;
+            background-color: black;
+            color: white;
+            padding: 5px 25px;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(163, 133, 133);
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhaina 2', cursive;
+            text-align: center;
+            display: block;
+            width: 490px;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 26px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 51%;
+            margin: auto;
+        }
+
+        .social {
+            font-family: 'Baloo Bhaina 2', cursive;
+            font-size: 23px;
+            display: block;
+            /* border: 2px solid white; */
+            /* margin: 5px; */
+            padding: 64px 57px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        .social p{
+            font-family: 'Baloo Bhaina 2', cursive;
+            font-size: 32px;
+        }
+
+        .social i {
+            padding: 21px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <!-- I am left -->
+
+            <img src="img\logo.png" alt="">
+            <div>Wiper Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now </button>
+            <button class="btn">Email us</button>
+        </div>
+
+        <div class="container">
+            <h1>Join the best gym in Kolkata.</h1>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+                <input type="text" name="" placeholder="Enter your age">
+                <input type="text" name="" placeholder="Enter your gender">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </div>
+
+        <div class="social">
+           Connect with us  <br>
+
+            <a href="https://www.facebook.com/abhinil.nath" target="_blank">
+                <i class="fab fa-facebook fa-4x" style="color: rgb(227, 225, 192)"></i>
+
+            </a>
+
+            <a href="https://www.instagram.com/_chromeflare_/"target="_blank">
+                <i class="fab fa-instagram fa-4x" style="color:rgb(227, 225, 192)"></i>
+            </a>
+
+            <a href="https://twitter.com/nath_abhinil?s=09"target="_blank">
+                <i class="fab fa-twitter-square fa-4x" style="color:rgb(227, 225, 192)"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abhinil-nath-16b2381bb"target="_blank">
+                <i class="fab fa-linkedin fa-4x" style="color:rgb(227, 225, 192)"></i>
+            </a>
+        </div>
+
+
+    </header>
+
+</body>
+
+</html>
